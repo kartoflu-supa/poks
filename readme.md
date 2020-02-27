@@ -1,2 +1,2 @@
-Game:
-https://kartoflu-supa.github.io/poks/
+Game: https://kartoflu-supa.github.io/poks/ <br>
+Video: 
