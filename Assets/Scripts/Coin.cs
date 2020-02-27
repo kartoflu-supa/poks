@@ -7,7 +7,7 @@ public class Coin : MonoBehaviour
     public int coinValue = 1;
     public float rotatSpeed;
     
-
+// this checks if the player hits
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("ball"))
@@ -16,6 +16,7 @@ public class Coin : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+// this rotates the coin
     private void Update()
     {
         transform.Rotate(rotatSpeed*Time.deltaTime, 0, 0);
